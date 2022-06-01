@@ -8,6 +8,10 @@ import h3 from './h3.png'
 import h4 from './h4.png'
 import collection from './collection.png'
 import bub from './bub.png'
+import c1 from './c1.jpeg'
+import c2 from './c2.jpg'
+import c3 from './c3.jpg'
+import bitcoin from './bitcoin.png'
 
 export default {
   logo,
@@ -20,4 +24,8 @@ export default {
   h4,
   collection,
   bub,
+  c1,
+  c2,
+  c3,
+  bitcoin,
 }

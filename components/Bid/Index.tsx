@@ -9,7 +9,7 @@ export default function () {
         <Container>
           <Grid container>
             <Grid item md={4} xs={12}>
-              <Box className=" my-[20vh] rounded-xl bg-[#111827]">
+              <Box className=" relative z-50 my-[20vh] translate-x-0 rounded-xl bg-[#111827] lg:translate-x-20 ">
                 <div>
                   <h1 className="text-start p-8 text-2xl font-bold text-white">
                     Beautiful NFT
@@ -57,13 +57,13 @@ export default function () {
                   <Stack direction="row" spacing={1} className="block sm:flex">
                     <Button
                       variant="contained"
-                      className="my-4 w-[50%] rounded-3xl bg-[#0284C7] font-semibold md:my-0"
+                      className="my-4 w-full rounded-3xl bg-[#0284C7] font-semibold md:my-0"
                     >
                       Place a Bid
                     </Button>
                     <Button
-                      variant="outlined"
-                      className=" w-[50%]  rounded-3xl bg-transparent font-semibold text-white"
+                      variant="contained"
+                      className=" w-full rounded-3xl bg-[#0284C7]  "
                     >
                       View Items
                     </Button>
@@ -71,9 +71,9 @@ export default function () {
                 </Box>
               </Box>
             </Grid>
-            <Grid item md={8}>
-              <Box>
-                <Image src={Images.bub} />
+            <Grid item md={8} xs={12}>
+              <Box className="-z-40 my-6 rounded-3xl border-[1rem] border-[#1F2937]">
+                <Image src={Images.bub} className="rounded-2xl" />
               </Box>
             </Grid>
           </Grid>
