@@ -19,6 +19,7 @@ export default function () {
                   <Box className="flex  px-8 py-4">
                     <Image
                       src={Images.profile}
+                      alt=""
                       width="40"
                       height="40"
                       className="rounded-full "
@@ -31,6 +32,7 @@ export default function () {
                   <Box className="flex flex-shrink-0 px-8 py-4">
                     <Image
                       src={Images.collection}
+                      alt=""
                       width="40"
                       height="40"
                       className="rounded-full "
@@ -73,7 +75,7 @@ export default function () {
             </Grid>
             <Grid item md={8} xs={12}>
               <Box className="-z-40 my-6 rounded-3xl border-[1rem] border-[#1F2937]">
-                <Image src={Images.bub} className="rounded-2xl" />
+                <Image src={Images.bub} alt="" className="rounded-2xl" />
               </Box>
             </Grid>
           </Grid>

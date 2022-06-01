@@ -13,7 +13,7 @@ export default function Crypto() {
                 <Box className="flex items-center justify-center py-[8vh]">
                   <Container>
                     <Box className="px-3">
-                      <Image src={Images.logo} />
+                      <Image src={Images.logo} alt="" />
                     </Box>
                     <Box>
                       <h1 className="p-3 text-4xl font-bold text-white">
@@ -48,7 +48,7 @@ export default function Crypto() {
               </Grid>
               <Grid md={6} xs={12}>
                 <Box className="px-3">
-                  <Image src={Images.bitcoin} />
+                  <Image src={Images.bitcoin} alt="" />
                 </Box>
               </Grid>
             </Grid>

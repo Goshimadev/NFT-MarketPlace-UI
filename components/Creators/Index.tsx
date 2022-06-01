@@ -70,14 +70,27 @@ export default function Creators() {
                     >
                       <Box className="flex p-3 ">
                         <Stack direction="row">
-                          <Image src={Images.c1} className="rounded-xl" />
-                          <Image src={Images.c2} className="rounded-xl" />
-                          <Image src={Images.c3} className="rounded-xl" />
+                          <Image
+                            src={Images.c1}
+                            alt=""
+                            className="rounded-xl"
+                          />
+                          <Image
+                            src={Images.c2}
+                            alt=""
+                            className="rounded-xl"
+                          />
+                          <Image
+                            src={Images.c3}
+                            alt=""
+                            className="rounded-xl"
+                          />
                         </Stack>
                       </Box>
                       <Box className="flex -translate-y-6 items-center justify-center">
                         <Image
                           src={Images.profile}
+                          alt=""
                           width="40"
                           height="40"
                           className="rounded-full "
