@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Images from '../../public/images/Images'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 export default function Header() {
   return (
     <>
@@ -73,17 +74,7 @@ export default function Header() {
                 </button>
 
                 <div className="px-2">
-                  <Button
-                    variant="contained"
-                    sx={{
-                      background: 'gray',
-                      width: '11rem',
-                      borderRadius: '12px',
-                    }}
-                    className=" mx-2 text-white"
-                  >
-                    Connect Wallet
-                  </Button>
+                  <ConnectButton />
                 </div>
                 <div className="rounded-full ">
                   <Image

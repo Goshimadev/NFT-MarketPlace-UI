@@ -14,7 +14,7 @@ export default function Footer() {
             <Grid container className="py-[15vh]">
               <Grid item md={2.4}>
                 <Box>
-                  <Image src={Images.logo} />
+                  <Image src={Images.logo} alt="" />
                 </Box>
                 <Box className="pt-2">
                   <Stack spacing={1}>
