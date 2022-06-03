@@ -13,6 +13,8 @@ import c2 from './c2.jpg'
 import c3 from './c3.jpg'
 import bitcoin from './bitcoin.png'
 import book from './book.png'
+import collectionpage from './collectionpage.png'
+import robot from './robot.png'
 
 export default {
   logo,
@@ -30,4 +32,6 @@ export default {
   c3,
   bitcoin,
   book,
+  collectionpage,
+  robot,
 }

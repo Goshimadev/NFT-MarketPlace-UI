@@ -37,7 +37,7 @@ export default function Hero() {
             </Grid>
           </Box>
 
-          <Box className="py-12 ">
+          <Box className=" hidden py-12 lg:block ">
             <Box
               sx={{
                 backgroundImage: `url(/images/line.svg)`,
@@ -88,7 +88,7 @@ export default function Hero() {
                       Filter & Discover
                     </h1>
                   </Box>
-                  <Box>
+                  <Box className="mb-12 lg:pb-0">
                     <span className="text-center text-lg text-[#879DAE]">
                       Connect with wallet, discover, buy NTFs, sell your NFTs
                       and earn money
@@ -113,7 +113,7 @@ export default function Hero() {
                       Connect Wallet
                     </h1>
                   </Box>
-                  <Box>
+                  <Box className="mb-12 lg:pb-0">
                     <span className="text-center text-lg text-[#879DAE]">
                       Connect with wallet, discover, buy NTFs, sell your NFTs
                       and earn money
@@ -137,7 +137,7 @@ export default function Hero() {
                       Start Trading
                     </h1>
                   </Box>
-                  <Box>
+                  <Box className="mb-12 lg:pb-0">
                     <span className="text-center text-lg text-[#879DAE]">
                       Connect with wallet, discover, buy NTFs, sell your NFTs
                       and earn money
@@ -162,7 +162,7 @@ export default function Hero() {
                       Earn Money
                     </h1>
                   </Box>
-                  <Box>
+                  <Box className="mb-12 lg:pb-0">
                     <span className="text-center text-lg text-[#879DAE]">
                       Connect with wallet, discover, buy NTFs, sell your NFTs
                       and earn money
